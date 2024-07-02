@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 140px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 25px;
+  max-width: 50%;
+  width: 300px;
+  background-color: rgb(30, 29, 79, 0.5);
+  border-radius: 30px;
+  margin-bottom: 20px;
+
+
+  & button {
+    border-radius: 25px;
+    background-color: #8b8ae1;
+    border: none;
+    color: #ffffff;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+
+  }
+
+  & button:hover {
+
+    opacity: 0.7;
+
+  }
+
+  & input {
+
+    border: 1px solid #8684ff;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(30, 29, 79, 0.5);
+    color: #ffffff;
+  }
+
+  & input::placeholder {
+    color: #fff;
+  }
+}
+
+.saves {
+  background-color: rgb(30, 29, 79, 0.3);
+  display: flex;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  color: #ffffff;
+  justify-content: space-between;
+
+
+  & .btn-delet {
+    color: rgb(255, 177, 177);
+    border: none;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background-color: rgb(30, 29, 79, 0);
+    margin-top: 23px;
+    font-size:18px;
+  }
+
+  & .btn-editar {
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background-color: rgb(30, 29, 79, 0);
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 13px;
+  }
+
+
+  & .btn-editar:hover {
+    color: #ccc;
+
+  }
+
+  & .btn-delet:hover {
+    color: red;
+
+  }
+
+}
+
+.edit{
+  height: 220px;
+  text-align: center;
+}
+
+.edit input {
+    width: 70%;
+    margin: 8px;
+    border: 1px solid #8684ff;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(30, 29, 79, 0.5);
+    color: #ffffff;
+
+}
+ .salvar {
+    border-radius: 25px;
+    background-color: #8b8ae1;
+    border: none;
+    color: #ffffff;
+    height: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+    width: 50%;
+    margin-top: 20px;
+ }
+
+ .cancelar {
+  width: 50%;
+  border-radius: 25px;
+  background-color: #8b8ae1;
+  border: none;
+  color: #ffffff;
+  height: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  letter-spacing: 0.2em;
+  margin: 20px ;
+}
