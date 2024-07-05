@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+
+.btn{
+    width: 80%;
+    max-width: 300px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+    background-color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+    position:absolute ;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.form{ 
+    background-color:rgb(255, 255, 255);
+    max-width: 400px;
+    padding:20px 2%;
+    height: 60%;
+    max-height: 300px;
+    min-height: 300px;
+    width: 94%;
+    border:2px solid rgb(255, 243, 68);
+    position:absolute ;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form input[type=text],[type=email]{
+    width: 100%;
+    height: 48px;
+    margin-top:10px;
+    padding-left: 12px;
+    border: 1px solid #ccc;
+    color: #ccc;
+}
+
+.form input[type=submit]{
+    width: 100%;
+    height: 48px;
+    margin-top:10px;
+    padding-left: 12px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.closeBtn{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(204, 39, 39);
+    text-align: center;
+    border: 1px solid rgb(65, 4, 4);
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    color: aliceblue;
+}
+
