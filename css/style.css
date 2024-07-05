@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html,body{
+    height: 100%;
+}
+
+input[type=file]{
+    display: none;
+
+}
+
+/*label{
+    display: block;
+    margin: 20px auto;
+    width: 220px;
+    height: 40px;
+    background-color: #ccc;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+*/
+form{
+    text-align: center;
+    background-color: #ccc;
+    padding: 30px 0;
+}
+/*
+form select{
+    width: 220px;
+    height: 40px;
+    padding-left: 10px;
+    appearance: none;
+    background-image:url('../imagens/imagem.jpg') ;
+    background-size: 10px 20px;
+    background-repeat: no-repeat;
+    background-position: 96% 8px;
+    /*-webkit-appearance: none; crhome e safari*/
+    /*-moz-appearance: none; mozila*/
+
+
+select::-ms-expand{
+    display:none;
+    /*internet explore*/
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+label{  
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+input[type=checkbox]:checked + label {
+   background-color: green;
+    
+}
