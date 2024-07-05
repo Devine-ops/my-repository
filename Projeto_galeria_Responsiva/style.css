@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    height: 100%;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1280px;
+    padding: 40px 0;
+    margin: 20px auto;
+    width: 100%;
+    border: 3px solid black;
+}
+
+.img-wraper{
+    width: 33.3%;
+    padding-top: 33.3% ;
+    float: left;
+    background-color:white;
+    position: relative;
+    border: 4px solid white;
+    
+}
+
+.img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
