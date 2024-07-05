@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/**header do site inicio**/
+
+header{
+    padding: 20px 2%;
+}
+
+header .menu-mobile{
+    display: none;
+    width: 32px;
+    height: 32px;
+    background-image: url('../images/menu-de-tres-linhas.png') ;
+    background-size: 100% 100%;
+    cursor: pointer;
+    float: right;
+}
+
+header .menu-mobile ul{
+    display: none;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 80px;
+    list-style-type: none;
+}
+
+header .menu-mobile ul li{
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+}
+
+header .logo img{
+    float: left;
+    width: 236px;
+}
+
+header .menu-desktop{
+    float:right;
+}
+
+header .menu-desktop ul{
+    padding: 8px 0;
+    list-style-type: none;
+}
+
+header .menu-desktop ul li{
+    float: left;
+    font-size: 14px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #b4b4b4;
+    font-weight: normal;
+}
+
+/**fim do header**/
+
+/**inicio do mosaico**/
+
+.mosaico-single{
+    float: left;
+    width: calc(100% / 6);
+}
+
+.img-mosaico-single{
+    width: 100%;
+    padding-top: 100%;
+    /**background-image: url('https://odontocompanypetropolis.com.br/wp-content/uploads/2020/08/304696-como-ter-um-sorriso-perfeito-veja-7-dicas-para-arrasar.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;**/
+    background-color: #ccc;
+    border:5px solid white;
+}
+
+/**fim do mosaico**/
+
+/**section servicos**/
+
+section.servicos > .container{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    top: -40px;
+}
+
+section.servicos > .container .box-servico h2{
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+section.servicos > .container .box-servico p{
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+section.servicos > .container .box-servico img{
+    padding-top: 15px;
+}
+
+section.servicos > .container .box-servico:nth-of-type(1){
+    width: 30%;
+    padding: 30px 2%;
+    background-color: #576975;
+}
+
+section.servicos > .container .box-servico:nth-of-type(2){
+    width: 40%;
+    padding: 45px 2%;
+    background-color: #688293;
+}
+
+section.servicos > .container .box-servico:nth-of-type(3){
+    width: 30%;
+    padding: 30px 2%;
+    background-color: #576975;
+}
+
+/**fim do servicos**/
+
+/**perfil profissional**/
+
+section.perfil-container{
+    padding-top: 40px;
+}
+
+section.perfil-container .container{
+    max-width: 800px;
+}
+
+section.perfil-container .perfil-wraper{
+    padding-top: 60%;
+    position: relative;
+}
+
+section.perfil-container .perfil-wraper2{
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+section.perfil-container .img-perfil{
+    width: 40%;
+    height: 100%;
+    background-image: url('../images/img_perfil.png');
+    background-size: 100% 100%;
+}
+
+section.perfil-container .texto-perfil{
+    width: 60%;
+    padding: 0 30px;
+}
+
+section.perfil-container .texto-perfil h2{
+    color: #698293;
+    font-size: 18px;
+}
+
+section.perfil-container .texto-perfil p{
+    color:#4b4b4b;
+    font-size:14px;
+    margin-top:8px ;
+}
+
+/**fim perfil profisional**/
+
+/**box video**/
+
+section.videos{
+    padding: 50px 0;
+}
+
+section.videos .box-video{
+    position: relative;
+    float: left;
+    width: calc(100% / 3);
+    padding-top: calc((100% / 3) * 0.6);
+}
+
+section.videos iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+}
+
+/**fim box video**/
+
+section.tratamentos > h2{
+    text-align: center;
+    color:#698293;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+
+section.tratamentos .container{
+    padding: 50px 0;
+}
+
+section.tratamentos .tratamentos-container{
+    float: left;
+    width: 33.33%;
+}
+
+section.tratamentos{
+    padding: 30px 0;
+    background-color: #e4e3e3;
+}
+
+.tratamentos-single{
+    padding: 20px;
+
+}
+
+.tratamentos-single h2{
+    color:#737373;
+    font-size: 18px;
+}
+
+.tratamentos-single p{
+    padding: 10px 0;
+    color: #b4b4b4;
+    font-size: 13px;
+}
+
+section.depoimentos h2{
+    padding-top: 50px;
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+section.depoimentos > .container{
+    padding: 20px 0;
+    max-width: 400px;
+}
+
+section.depoimentos .depoimento-single{
+    width: 100%;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.depoimento-single quote{
+   font-size: 15px;
+    color: #b4b4b4;
+}
+
+.depoimento-single .nome-depoimento{
+    padding: 18px 0;
+}
+
+.depoimento-single .nome-depoimento img{
+    width: 50px;
+    height: 50px;
+}
+
+.nome-depoimento span{
+    padding-left: 18px;
+    top: 16px;
+    position: relative;
+    vertical-align: top;
+    font-size: 13px;
+    color: #4b4b4b;
+    display: inline-block;
+}
+
+/**fim depoimentos**/
+
+.social-chamada{
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #698293;
+    padding: 40px 0;
+    color: white;
+}
+
+.social-chamada p{
+    font-size: 13px;
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+.mosaico-social{
+    float: left;
+    width: 100%;
+}
+
+.img-mosaico-single-social{
+    float: left;
+    width: calc(100% / 9);
+    padding-top: calc(100% / 9);
+    background-color: #4b4b4b;
+    border: 6px solid rgb(255, 255, 255);
+}
+
+.social-chamada2 img{
+    width: 40px;
+    height: 40px;
+
+}
+
+.social-chamada2{
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #3c4c57;
+    padding: 40px 0;
+    color: white;
+}
+
+.social-chamada2 p{
+    font-size: 13px;
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+section.contato{
+    padding: 60px 2%;
+    background-color: #ebebeb;
+}
+
+section.contato h2{
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+section.contato form{
+  width: 100%;
+  margin: 30px auto;
+  max-width: 500px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.form-wraper{
+    float: left;
+    margin-top: 10px;
+    padding: 0 8px;
+}
+
+.form-wraper span{
+    font-size: 13px;
+    color: #b4b4b4;
+}
+
+.form-wraper input[type=text]{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    border:1px solid #dadada;
+    margin-top: 8px;
+}
+
+.form-wraper textarea{
+    width: 100%;
+    height: 80px;
+    border:1px solid #dadada;
+    margin-top: 8px;
+    padding: 8px;
+    resize: none;
+}
+
+.form-wraper input[type=submit]{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    background-color: #688293;
+    color: white;
+    cursor: pointer;
+    /**position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    **/
+}
+
+footer .footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 4%;
+    background-color: #698293;
+}
+
+footer .informacoes h2{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+footer .informacoes p{
+    color: white;
+    padding-top: 8px;
+    font-size: 13px;
+
+}
+
+footer .footer-logo{
+    background-color: #3c4c57;
+    width: 100%;
+}
+
+footer .footer-logo h2{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+@media screen and (max-width: 1024px){
+
+    .img-mosaico-single-social{
+        width: calc(100% / 6);
+        padding-top: calc(100% /6);
+    }
+
+    .mosaico-social > div:nth-of-type(1n+7){
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+
+    header .menu-desktop{
+        display: none;
+    }
+
+    header .menu-mobile{
+        display: block;
+    }
+
+    section.servicos > .container{
+       /* max-width: 800px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        text-align: center;
+        top: -40px;*/
+        flex-direction: column;
+    }
+
+    section.servicos > .container .box-servico:nth-of-type(1){
+        width: 90%;
+        max-width: 450px;
+        padding: 30px 2%;
+       
+    }
+    
+    section.servicos > .container .box-servico:nth-of-type(2){
+        width: 94%;
+        max-width: 500px;
+        padding: 45px 2%;
+        
+    }
+    
+    section.servicos > .container .box-servico:nth-of-type(3){
+        width: 90%;
+        max-width: 450px;
+        padding: 30px 2%;
+        
+    }
+
+    section.perfil-container .perfil-wraper{
+        padding-top: 0;
+    }
+
+    section.perfil-container .perfil-wraper2{
+        /*align-items: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+        width: 100%;
+        height: 100%;*/
+        position: static;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.perfil-container .img-perfil{
+        width: 50%;
+        padding-top: 70%;
+        height: auto;
+        /*background-image: url('../images/img_perfil.png');
+        background-size: 100% 100%;*/
+        display: inline-block;
+    }
+
+    section.perfil-container .texto-perfil h2{
+        text-align: center;
+    }
+    
+    section.perfil-container .texto-perfil{
+        width: 100%;
+        text-align: justify;
+        padding: 30px 30px;
+        display: inline-block;
+    }
+
+    section.videos{
+        text-align: center;
+    }
+
+    section.videos .box-video{
+        display: inline-block;
+        float: none;
+        width: 70%;
+        padding-top: calc(70% * 0.6);
+    }
+
+    .img-mosaico-single-social{
+        width: calc(100% / 3);
+        padding-top: calc(100% /3);
+    }
+
+    .mosaico-social > div:nth-of-type(1n+4){
+        display: none;
+    }
+
+    footer .footer-flex{
+        display: block;
+        text-align: center;
+        
+    }
+
+    footer .footer-flex h2{
+        padding-top: 15px;
+    }
+    
+    footer .footer-flex .informacoes:nth-last-of-type(1n+1){
+        border-bottom: 2px solid #506370;
+    }
+
+    footer .footer-flex .informacoes p{
+        margin: 10px 0;
+        line-height: 10px;
+    }
+    
+
+}
+
+@media screen and (max-width: 580px){
+    section.perfil-container .img-perfil{
+        width: 80%;
+        padding-top: 110%;
+    }
+
+    section.videos .box-video{
+        width: 100%;
+        padding-top: calc(100% * 0.6);
+    }
+    
+}
